@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import Card from "./Card";
-import data from "./data.ts";
+import data from "../data.ts";
 import "./CardList.css";
 import { ThemeContext } from "./ThemeContext.ts";
 
