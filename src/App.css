@@ -23,8 +23,8 @@ body {
   background-attachment: fixed;
   font-family: 'NotoSans', sans-serif;
   margin: 0;
-  padding-left: 400px;
-  width: 1410px;
+  padding-left: 20%;
+  width: 72.5%;
   transition: all 0.5s ease;
 }
 

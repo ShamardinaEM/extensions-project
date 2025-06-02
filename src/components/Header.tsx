@@ -37,8 +37,8 @@ export default function Header() {
         <img
           src={
             isActive
-              ? "../assets/images/icon-moon.svg"
-              : "../assets/images/icon-sun.svg"
+              ? `${import.meta.env.BASE_URL}images/icon-moon.svg`
+              : `${import.meta.env.BASE_URL}images/icon-sun.svg`
           }
           alt="buttonlogo"
         />
