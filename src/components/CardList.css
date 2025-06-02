@@ -58,9 +58,15 @@
 }
 
 .filter-button.light-theme:hover {
-  color: #50596A; 
+  color: #393a3b; 
   background-color: #F6FAFB;
   border-color: #F6FAFB;
+}
+
+.filter-button.light-theme:focus {
+  border: 1px solid #d6676e;
+  background-color: #f05e51;
+  color: #F6FAFB;
 }
 
 .cardList {
