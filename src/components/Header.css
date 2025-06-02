@@ -1,0 +1,43 @@
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2535;
+  width: 1010px;
+  height: 58px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  padding: 0 15px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.header-section.light-theme {
+  background-color: #FCFDFF;
+}
+
+.theme-button {
+  width: 45px;
+  height: 45px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #2F354B;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-button.light-theme {
+  background-color: #EEEEF0;
+}
+
+.theme-button.light-theme:hover {
+  background-color: #CACCCB;
+}
+
+.theme-button:hover {
+  background-color: #525868;
+}

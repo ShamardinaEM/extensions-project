@@ -1,0 +1,70 @@
+.main-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.main-section nav {
+  display: flex;
+  align-items:center;
+  gap: 25px;
+}
+
+.main-section h1 {
+  color: white;
+}
+
+.main-section.light-theme h1 {
+  color: #09153B;
+}
+
+.filter-button {
+  color: white;
+  background-color: #2f354b;
+  border: 1px solid #dde0e7;
+  padding: 0 20px;
+  height: 38px;
+  border-radius: 30px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #525868;
+  border: #525868 1px solid;
+}
+
+.filter-button:focus {
+  border: 1px solid #d6676e;
+}
+
+.filter-button.active {
+  background: #f05e51;
+  color: #29214f;
+  border-color: #dde0e700;
+}
+
+.filter-button.light-theme {
+  background-color: #FCFDFF;
+  color: #2f354b; 
+}
+
+.filter-button.light-theme.active {
+  color: #ffffff; 
+  background-color: #f05e51;
+}
+
+.filter-button.light-theme:hover {
+  color: #50596A; 
+  background-color: #F6FAFB;
+  border-color: #F6FAFB;
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  gap: 10px;
+}

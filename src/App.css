@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('../assets/fonts/static/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+}
+
+body {
+  color: white;
+  background: linear-gradient(180deg, rgb(6, 11, 31), rgb(9, 21, 63));
+  background-attachment: fixed;
+  font-family: 'NotoSans', sans-serif;
+  margin: 0;
+  padding-left: 400px;
+  width: 1410px;
+  transition: all 0.5s ease;
+}
+
+body.light-theme {
+   background: linear-gradient(180deg, #EBF2FC, #EFFBF9);
+}
+
+button {
+  font-family: 'NotoSans', sans-serif;
+}
